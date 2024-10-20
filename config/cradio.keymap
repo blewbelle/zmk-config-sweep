@@ -87,7 +87,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  GAME    │          │          │          │PROFILE 0 │   │          │          │          │          │          │
-            &to 4      &trans     &trans     &trans  &bt BT_SEL 0     &kp F12     &kp F1     &kp F2     &kp F3    &trans
+            &tog 4      &trans     &trans     &trans  &bt BT_SEL 0     &kp F12     &kp F1     &kp F2     &kp F3    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp F11    &kp F4     &kp F5     &kp F6    &bootloader
@@ -109,7 +109,7 @@
             &kp LSHFT  &kp A      &kp S      &kp D       &kp F         &kp G      &kp H      &kp J      &kp K      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp LCTRL   &kp Z     &kp X      &kp C      &kp V           &kp B     &kp N     &kp M        &kp P     &to 0     
+            &kp LCTRL   &kp Z     &kp X      &kp C      &kp V           &kp B     &kp N     &kp M        &kp P     &tog 4     
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 1 ESC   &kp SPACE       &trans     &kp TAB
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
