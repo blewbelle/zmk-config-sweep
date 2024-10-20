@@ -68,7 +68,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │   ESC    │ HOME     │ UP       │ END      │          │
-            &kp INS    &kp N1     &kp N2     &kp N3     &trans         &kp ESC     &kp HOME   &kp UARW   &kp END    &trans
+            &kp INS    &kp N1     &kp N2     &kp N3     &kp B         &kp ESC     &kp HOME   &kp UARW   &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │          │ LEFT     │ DOWN     │ RIGHT    │          │
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp TAB    &kp LARW   &kp DARW   &kp RARW   &trans
